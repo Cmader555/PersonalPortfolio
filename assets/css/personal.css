@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Navbar Styling */
+
+.navbar-custom {
+    background-color: #696969;
+    opacity: .5;
+}
+
+#mainNavbar .navbar-brand {
+    /* color: #0095c6; */
+    color: white;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #228B22;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: #228B22;
+}
+
+/*main image section */
+
+.banner {
+    background-image: url(../images/vinyl-portfolio\ .jpeg);
+    min-height: 750px;
+    overflow: hiden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+}
+
+/*About Section */
+
+hr {
+    border-top: 3px double #8c8b8b;
+}
+
+li {
+    list-style-type: none;
+}
+
+.overallAbout {
+
+    background-color: #DCDCDC; 
+    padding-top: 2rem; 
+
+}
