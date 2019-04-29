@@ -30,7 +30,7 @@ body {
 
 .banner {
     background-image: url(../images/vinyl-portfolio\ .jpeg);
-    min-height: 750px;
+    min-height: 500px;
     overflow: hiden;
     background-repeat: no-repeat;
     background-position: center center;
@@ -50,7 +50,21 @@ li {
 
 .overallAbout {
 
-    background-color: #DCDCDC; 
+    background-image: url(../images/confectionary.png); 
     padding-top: 2rem; 
 
 }
+.portfolio {
+    background-color: #DCDCDC; 
+}
+
+.navbar.scrolled {
+    background-color: #696969;
+    opacity: 1;
+    transition-duration: 500ms; 
+}
+
+
+  .project:hover{
+      opacity: .80; 
+  }
