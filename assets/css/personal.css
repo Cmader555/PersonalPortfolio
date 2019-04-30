@@ -23,7 +23,7 @@ body {
 }
 
 #mainNavbar .navbar-brand:hover {
-    color: ##3CB371;
+    color: #3CB371;
 }
 
 /*main image section */
@@ -96,3 +96,13 @@ li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+fieldset {
+    margin: 1rem; 
+}
+
+#contact {
+
+    background-image: url(../images/polaroid.png); 
+}
