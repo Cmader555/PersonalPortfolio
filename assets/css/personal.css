@@ -19,11 +19,11 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-    color: #228B22;
+    color: #3CB371;
 }
 
 #mainNavbar .navbar-brand:hover {
-    color: #228B22;
+    color: ##3CB371;
 }
 
 /*main image section */
@@ -49,29 +49,27 @@ li {
 }
 
 .overallAbout {
-
-    background-image: url(../images/confectionary.png); 
-    padding-top: 2rem; 
-
+    background-image: url(../images/confectionary.png);
+    padding-top: 2rem;
 }
+
 .portfolio {
-    background-color: #DCDCDC; 
+    background-color: #DCDCDC;
 }
 
 .navbar.scrolled {
     background-color: #696969;
     opacity: 1;
-    transition-duration: 500ms; 
+    transition-duration: 500ms;
 }
 
-
-  .image {
+.image {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -81,14 +79,14 @@ li {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #228B22;
-  }
-  
-  .contain:hover .overlay {
+    background-color: #3CB371;
+}
+
+.contain:hover .overlay {
     opacity: .75;
-  }
-  
-  .text {
+}
+
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
