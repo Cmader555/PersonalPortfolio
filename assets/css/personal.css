@@ -23,7 +23,7 @@ body {
 }
 
 #mainNavbar .navbar-brand:hover {
-    color: #3CB371;
+    color: #0095c6;
 }
 
 /*main image section */
@@ -57,6 +57,15 @@ li {
     background-color: #DCDCDC;
 }
 
+.smallEd {
+    font-weight: 300; 
+    color: #0095c6; 
+ 
+
+}
+.slash {
+    color: #0095c6;
+}
 .navbar.scrolled {
     background-color: #696969;
     opacity: 1;
@@ -144,8 +153,13 @@ input:focus, textarea:focus {
     
 }
 
-.fas:hover {
-    margin-left: 5rem; 
+.social {
+    text-align: center; 
+    
+}
+
+.socialbtn:hover {
+    color: #0095c6; 
 }
 
 
