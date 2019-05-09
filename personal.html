@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/personal.css">
 
     <title>Christian Mader | Portfolio </title>
@@ -217,21 +218,26 @@
     <!--Contact-->
     <section id="contact">
         <div class="container">
-             <h1 class="contactH1">Let's Chat!</h1>
-                <form id="contact" action="" method="post" >
-                    <fieldset>
-                        <input placeholder="Your Name" type="text" tabindex="1" >
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Your Email Address" type="email" tabindex="2" >
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="Contact me...." tabindex="3"></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" class="btn btn-primary">Submit</button>
-                    </fieldset>
-                </form>
+            <h1 class="contactH1">Let's Chat!</h1>
+            <form id="contact" action="" method="post">
+                <fieldset>
+                    
+                    <input id="name" placeholder="Your Name" type="text" tabindex="1">
+                </fieldset>
+                <fieldset>
+
+                    <input id="email" placeholder="Your Email Address" type="email" tabindex="2">
+                </fieldset>
+                <fieldset>
+
+                    <textarea id="text" placeholder="Contact me...." tabindex="3"></textarea>
+                </fieldset>
+                <fieldset>
+                    <div class="buttoncontain">
+                    <button name="submit" type="submit" id="contact-submit" class="btn btn-secondary btn-block">Submit<i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </fieldset>
+            </form>
 
         </div>
     </section>

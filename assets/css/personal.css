@@ -99,10 +99,57 @@ li {
 }
 
 fieldset {
-    margin: 1rem; 
+    margin: 1rem;
 }
 
 #contact {
-
-    background-image: url(../images/polaroid.png); 
+    background-color: #F8F8FF;
 }
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1.5px solid rgba(120, 131, 131, 0.904);
+    background-color: #F8F8FF;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #F8F8FF;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1.5px solid rgba(120, 131, 131, 0.904);
+}
+
+input:focus, textarea:focus {
+    border-bottom: 3px solid #3CB371;
+    outline: none; 
+}
+.buttoncontain {
+    margin: auto; 
+    width: 50%; 
+}
+
+.fa-arrow-right {
+
+    margin-left: .5rem; 
+}
+.btn:hover {
+    background-color: #3CB371; 
+    
+}
+
+.fas:hover {
+    margin-left: 5rem; 
+}
+
+
+
+
+
+
