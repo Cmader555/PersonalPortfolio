@@ -114,6 +114,9 @@ fieldset {
 #contact {
     background-color: #F8F8FF;
 }
+.contactH1{
+    text-align: center
+}
 
 input {
     width: 100%;
@@ -161,6 +164,40 @@ input:focus, textarea:focus {
 .socialbtn:hover {
     color: #0095c6; 
 }
+
+.social a {
+    color: black; 
+}
+
+ul {
+    text-align: center; 
+}
+
+.education h3 {
+    text-align: center; 
+
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 531px) {
+    
+.skillsFlag h1{
+
+    font-size: 1.95rem; 
+}
+}
+
+@media only screen and (max-width: 531px) {
+
+    .skillsFlag h1{
+
+        font-size: 1.75rem; 
+    }
+    
+
+}
+
 
 
 
