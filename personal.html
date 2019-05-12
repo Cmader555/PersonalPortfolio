@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/personal.css">
 
     <title>Christian Mader | Portfolio </title>
@@ -71,7 +72,8 @@
                             it'll be the last time. Where is the Rebel base? Dantooine. They're on Dantooine.</p>
                     </div>
                     <div class="col-md-6 order-1 order-md-2">
-                        <img class="img-fluid profilePic" src="assets/images/vinyl-portfolio .jpeg" alt="picture of me">
+                        <img class="img-fluid profilePic" src="assets/images/MaderProfilepic copy 2.jpeg"
+                            alt="picture of me">
                     </div>
                 </div>
 
@@ -102,19 +104,20 @@
                     <div class="col-md-6 order-1 order-md-1">
                         <h3>Skills</h3>
                         <br>
-                        <ul>
+                        <ul class="aboutUL">
                             <li>HTML <i class="fab fa-html5" style="color:red;"></i></i></li>
-                            <li>CSS <i class="fab fa-css3-alt" style="color:lightblue;"></i></li>
+                            <li>CSS <i class="fab fa-css3-alt" style="color:#00BFFF;"></i></li>
                             <li>Bootstrap <i class=" fab fa-bootstrap" style="color:purple;"></i></li>
-                            <li>JavaScript <i class="fab fa-js-square" style="color:yellow;"></i></li>
-                            <li>JQuery <i class="fas fa-book-reader"></i></li>
+                            <li>JavaScript <i class="fab fa-js-square" style="color:#FFD700
+                                ;"></i></li>
+                            <li>JQuery <i class="fas fa-book-reader" style="color:#4169E1;"></i></li>
                             <li>FireBase <i class="fas fa-fire" style="color:orange;"></i></li>
                             <li>Node.JS <i class="fab fa-node-js" style="color:lightgreen;"></i></li>
                         </ul>
                     </div>
                     <div class="col-md-6 order-2 order-md-2">
                         <h3>Education and Certifications</h3>
-                        <ul>
+                        <ul class="aboutUL">
                             <li class="bigEd">Full Stack Web Development Certification</li>
                             <li class="smallEd">University of Arizona // Pending 2019</li>
                         </ul>
@@ -141,7 +144,7 @@
     <section class="portfolio" id="portolioMain">
 
         <section class="container-fluid px-0">
-            <h1 class="text-center">Project Showcase</h1>
+            <h1 class="text-center contactProjectH1">Project Showcase</h1>
             <div class="row align-items-center">
                 <div class="col-md-6 text-center order-1 order-md-1 contain">
                     <img class="img-fluid image" src="assets/images/triviaGAme.png" alt="trivia-game"></a>
@@ -219,19 +222,19 @@
     <!--Contact-->
     <section id="contact">
         <div class="container">
-            <h1 class="contactH1">Let's Chat!</h1>
+            <h1 class="contactProjectH1">Let's Chat!</h1>
             <form id="contact" action="" method="post">
                 <fieldset>
 
-                    <input id="name" placeholder="Your Name" type="text" tabindex="1">
+                    <input id="contactName" placeholder="Your Name" type="text" tabindex="1">
                 </fieldset>
                 <fieldset>
 
-                    <input id="email" placeholder="Your Email Address" type="email" tabindex="2">
+                    <input id="contactEmail" placeholder="Your Email Address" type="email" tabindex="2">
                 </fieldset>
                 <fieldset>
 
-                    <textarea id="text" placeholder="Contact me...." tabindex="3"></textarea>
+                    <textarea id="contactMessage" placeholder="Contact me...." tabindex="3"></textarea>
                 </fieldset>
                 <fieldset>
                     <div class="buttoncontain">
@@ -265,7 +268,7 @@
 
 
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

@@ -40,6 +40,10 @@ body {
 
 /*About Section */
 
+.aboutUL {
+    padding-left: 0;
+}
+
 hr {
     border-top: 3px double #8c8b8b;
 }
@@ -58,14 +62,14 @@ li {
 }
 
 .smallEd {
-    font-weight: 300; 
-    color: #0095c6; 
- 
-
+    font-weight: 300;
+    color: #0095c6;
 }
+
 .slash {
     color: #0095c6;
 }
+
 .navbar.scrolled {
     background-color: #696969;
     opacity: 1;
@@ -114,8 +118,10 @@ fieldset {
 #contact {
     background-color: #F8F8FF;
 }
-.contactH1{
-    text-align: center
+
+.contactProjectH1 {
+    text-align: center;
+    padding: 1.5rem;
 }
 
 input {
@@ -140,67 +146,51 @@ textarea {
 
 input:focus, textarea:focus {
     border-bottom: 3px solid #3CB371;
-    outline: none; 
+    outline: none;
 }
+
 .buttoncontain {
-    margin: auto; 
-    width: 50%; 
+    margin: auto;
+    width: 50%;
 }
 
 .fa-arrow-right {
-
-    margin-left: .5rem; 
+    margin-left: .5rem;
 }
+
 .btn:hover {
-    background-color: #3CB371; 
-    
+    background-color: #3CB371;
 }
 
 .social {
-    text-align: center; 
-    
+    text-align: center;
+    padding: 2rem;
 }
 
 .socialbtn:hover {
-    color: #0095c6; 
+    color: #0095c6;
 }
 
 .social a {
-    color: black; 
+    color: black;
 }
 
 ul {
-    text-align: center; 
+    text-align: center;
 }
 
 .education h3 {
-    text-align: center; 
-
-
+    text-align: center;
 }
-
 
 @media only screen and (max-width: 768px) and (min-width: 531px) {
-    
-.skillsFlag h1{
-
-    font-size: 1.95rem; 
-}
+    .skillsFlag h1 {
+        font-size: 1.95rem;
+    }
 }
 
 @media only screen and (max-width: 531px) {
-
-    .skillsFlag h1{
-
-        font-size: 1.75rem; 
+    .skillsFlag h1 {
+        font-size: 1.75rem;
     }
-    
-
 }
-
-
-
-
-
-
-
