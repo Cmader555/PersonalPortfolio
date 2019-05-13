@@ -54,7 +54,8 @@ li {
 
 .overallAbout {
     background-image: url(../images/confectionary.png);
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
 }
 
 .portfolio {
