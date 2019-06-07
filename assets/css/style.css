@@ -5,8 +5,8 @@ body {
 /* Navbar Styling */
 
 .navbar-custom {
-    background-color: #696969;
-    opacity: .5;
+    background-color: rgb(105, 105, 105, .5);
+    
 }
 
 #mainNavbar .navbar-brand {
@@ -93,7 +93,7 @@ li {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #3CB371;
+    background-color: rgb(60, 179, 113);
 }
 
 .contain:hover .overlay {
