@@ -26,7 +26,7 @@ app.use(express.json());
 // Define API routes here
 app.use(routes);
 
-let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/sportsScraper";
+let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/portfolio";
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 

@@ -34,7 +34,7 @@ $("#contact-submit").on("click", event => {
         $.ajax({
 
             type: 'POST',
-            url: "/submission",
+            url: "/api/submission",
             data: {
                 name: name,
                 email: email,
