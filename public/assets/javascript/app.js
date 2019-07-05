@@ -23,8 +23,35 @@ $(".btn").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", fu
 
 
 $("#contact-submit").on("click", event => {
- event.preventDefault()
-    
+    event.preventDefault()
+
+    let name = $("#contactName").val().trim()
+    let email = $("#contactEmail").val().trim()
+    let contact = $("#contactMessage").val().trim()
+
+    submit = () => {
+
+        $.ajax({
+
+            type: 'POST',
+            url: "/submission",
+            data: {
+                name: name,
+                email: email,
+                contact: contact
+            }
+
+        }).then(function (response) {
+
+            console.log("You clicked submit")
+            //console.log("////////", response)
+
+
+        });
+    }
+
+    submit()
+
 })
 
 
