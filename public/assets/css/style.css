@@ -6,37 +6,49 @@ body {
 
 .navbar-custom {
     background-color: rgb(105, 105, 105, .0);
-    
 }
 
 #mainNavbar .navbar-brand {
     /* color: #0095c6; */
     color: white;
+    text-shadow: 1px 1px 2px #000000
 }
 
 #mainNavbar .nav-link {
     color: white;
+    text-shadow: 1px 1px 2px #000000
 }
 
 #mainNavbar .nav-link:hover {
     color: #3CB371;
+    text-shadow: 0px 0px 0px
 }
 
 #mainNavbar .navbar-brand:hover {
     color: #0095c6;
+    text-shadow: 0px 0px 0px
 }
 
 /*main image section */
 
 .banner {
-    background-image: url(../images/vinyl-portfolio\ .jpeg);
-    min-height: 500px;
-    overflow: hiden;
+    background-image: url(../images/desk.jpg);
+    min-height: 625px;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
     background-size: cover;
 }
+
+#mainH2 {
+    margin: auto; 
+    padding-top: 10rem; 
+    color: white; 
+    text-shadow: 2px 2px 4px #000000
+}
+
+
 
 /*About Section */
 
@@ -72,9 +84,10 @@ li {
 }
 
 .navbar.scrolled {
-    background-color: #696969;
+    background-color: rgb(154, 168, 168);
     opacity: 1;
     transition-duration: 500ms;
+   
 }
 
 .image {
@@ -183,6 +196,8 @@ ul {
 .education h3 {
     text-align: center;
 }
+
+  
 
 @media only screen and (max-width: 768px) and (min-width: 531px) {
     .skillsFlag h1 {
