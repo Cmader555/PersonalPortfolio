@@ -3,21 +3,28 @@ const express = require("express");
 const axios = require("axios");
 const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3000;
-
+const bodyParser = require("body-parser");
 const app = express();
+const routes = require("./routes");
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
+
+// Bodyparser middleware
+app.use(
+    bodyParser.urlencoded({
+      extended: false
+    })
+  );
+  app.use(bodyParser.json());
 
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-
-
-// require("./routes/api_routes")(app);
-// require("./routes/html_routes")(app);
+// Define API routes here
+app.use(routes);
 
 let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/sportsScraper";
 
