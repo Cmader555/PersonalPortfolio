@@ -3,8 +3,9 @@ $(function () {
 
     $(document).scroll(function () {
 
-        var nav = $("#mainNavbar");
-        nav.toggleClass("scrolled", $(this).scrollTop() > nav.height());
+        const nav = $("#mainNavbar");
+      
+        nav.toggleClass("scrolled", $(this).scrollTop() > 600);
 
     });
 
@@ -52,7 +53,21 @@ $("#contact-submit").on("click", event => {
 
     submit()
 
-})
+}); 
+
+var i = 0;
+var txt = 'My Name is Christian Mader and I am a Full-Stack Web Developer. Welcome to my portfolio!'; /* The text */
+var speed = 60; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("mainH2").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter(); 
 
 
 
