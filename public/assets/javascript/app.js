@@ -44,9 +44,12 @@ $("#contact-submit").on("click", event => {
 
         }).then(function (response) {
 
-            console.log("You clicked submit")
-            //console.log("////////", response)
+            //console.log("You clicked submit")
+            $("#contactName").val("")
+            $("#contactEmail").val("")
+            $("#contactMessage").val("")
 
+            $('#myModal').modal()
 
         });
     }
