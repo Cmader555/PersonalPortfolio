@@ -125,6 +125,18 @@ li {
     text-align: center;
 }
 
+.linkText {
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a .linkText:hover{
+    color: #0095c6;
+    text-decoration: none; 
+}
+
 fieldset {
     margin: 1rem;
 }
