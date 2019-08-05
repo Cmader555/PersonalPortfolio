@@ -225,15 +225,15 @@ shadow:after {
 .ch-info-wrap, 
 .ch-info{
 	position: absolute;
-	width: 267px;
-    height: 267px;
+	width: 324px;
+    height: 324px;
 	border-radius: 50%;
 	transition: all 0.4s ease-in-out;
 }
 
 .ch-info-wrap {
-    top: 31.5px;
-    left: 31.5px;
+    top: 38px;
+    left: 38px;
 	background: #f9f9f9 url(../images/bg.jpg);
 	box-shadow: 
 		0 0 0 20px rgba(255,255,255,0.2), 
@@ -280,6 +280,9 @@ shadow:after {
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
 }
+
+
+
 
 .ch-info p {
 	color: #fff;
@@ -334,10 +337,11 @@ shadow:after {
 }
 
 .ch-grid li {
-    width: 330px;
-    height: 330px;
+    width: 400px;
+    height: 400px;
     display: inline-block;
-    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* End of project circles */
