@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -33,7 +33,7 @@ body {
 /*main image section */
 
 .banner {
-    background-image: url(../images/desk.jpg);
+    background-image: url(../images/Background.jpg);
     min-height: 625px;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -52,13 +52,25 @@ body {
 
 /* About Section */
 
-#aboutSection {
-    /* background-color: white; */
+.section-title{
+    font-weight: 700; 
+    font-size: 3rem; 
+}
+.section-title:after{
+    content: ''; 
+    display: block; 
+    border: 2.5px solid #0095c6; 
+    margin: auto; 
+    width: 180px; 
+    margin-top: .5rem; 
+
 }
 
 .bio {
     font-size: .90rem;
     line-height: 1.5rem;
+    /* color: #58698a;  */
+    color: #617c85; 
 }
 
 .avatar {
@@ -186,7 +198,8 @@ shadow:after {
     color: #F5F5F5; 
 }
 .outputStatement{
-    color: rgb(0, 255, 255) 
+    color: rgb(0, 255, 255); 
+    padding-left: 1rem;
 }
 
 /* End Terminal  */
