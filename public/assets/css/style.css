@@ -15,14 +15,18 @@ body {
 }
 
 #mainNavbar .navbar-brand {
-    /* color: #0095c6; */
     color: white;
-    text-shadow: 1px 1px 2px #000000
+    /* text-shadow: 1px 1px 2px #000000; */
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 #mainNavbar .nav-link {
     color: white;
-    text-shadow: 1px 1px 2px #000000
+    /* text-shadow: 1px 1px 2px #000000; */
+    font-size: 1.25rem;
+    
+    font-weight: 500;
 }
 
 #mainNavbar .nav-link:hover {
@@ -34,6 +38,22 @@ body {
     color: #0095c6;
     text-shadow: 0px 0px 0px
 }
+
+.navbar.scrolled {
+    background-color: white;
+    opacity: 1;
+    transition-duration: 500ms;
+   
+}
+
+#mainNavbar.scrolled .navbar-brand{
+    color: #0095c6;
+}
+
+#mainNavbar.scrolled .nav-link{
+    color: #0095c6;
+}
+
 
 /*main image section */
 
@@ -52,7 +72,7 @@ body {
     margin: auto;
     padding-top: 10rem;
     color: white;
-    text-shadow: 2px 2px 4px #000000
+    /* text-shadow: 2px 2px 4px #000000 */
 }
 
 /* About Section */
@@ -240,6 +260,7 @@ shadow:after {
     margin-top: 7rem;
     margin-bottom: 1.5rem;
 }
+
 .project-title:after {
     content: '';
     display: block;
@@ -254,10 +275,8 @@ shadow:after {
     background-color: #F5F5F5;
     border: 1px solid #F0F8FF;
     border-radius: 10px;
-    
     box-shadow: 0 50px 100px rgba(50, 50, 93, .15), 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .12);
 }
-
 
 /* End of Project Section */
 
@@ -294,11 +313,7 @@ li {
     color: #0095c6;
 }
 
-.navbar.scrolled {
-    background-color: rgb(154, 168, 168);
-    opacity: 1;
-    transition-duration: 500ms;
-   
+
 }
 
 .image {
