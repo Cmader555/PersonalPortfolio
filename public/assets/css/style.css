@@ -1,6 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
-    
+}
+
+.containerLarge {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
 /* Navbar Styling */
@@ -39,7 +44,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -52,25 +57,32 @@ body {
 
 /* About Section */
 
-.section-title{
-    font-weight: 700; 
-    font-size: 3rem; 
+.section-title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
-.section-title:after{
-    content: ''; 
-    display: block; 
-    border: 2.5px solid #0095c6; 
-    margin: auto; 
-    width: 180px; 
-    margin-top: .5rem; 
 
+.section-title:after {
+    content: '';
+    display: block;
+    border: 2.5px solid #0095c6;
+    margin: auto;
+    width: 180px;
+    margin-top: .5rem;
+}
+
+#spanSpace {
+    margin: 0;
 }
 
 .bio {
-    font-size: .90rem;
-    line-height: 1.5rem;
-    /* color: #58698a;  */
-    color: #617c85; 
+    font-size: 1rem;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    line-height: 3rem;
+    color: #617c85;
 }
 
 .avatar {
@@ -90,7 +102,6 @@ body {
 }
 
 .box {
-    
     background: #FFF;
     margin: 40px auto;
 }
@@ -140,53 +151,52 @@ shadow:after {
 /* Terminal */
 
 #terminalHead {
-    height: 30px; 
+    height: 30px;
     margin: auto;
-    background-color:rgb(223,222,226);
+    background-color: rgb(223, 222, 226);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     justify-content: flex-start;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 #terminalExit {
-
-    background-color: rgb(255, 59, 48); 
-    border: 1px solid rgb(255, 69, 58); 
-    height: 15px; 
+    background-color: rgb(255, 59, 48);
+    border: 1px solid rgb(255, 69, 58);
+    height: 15px;
     width: 15px;
-    border-radius: 50%; 
-    margin-left: 10px; 
+    border-radius: 50%;
+    margin-left: 10px;
 }
+
 #terminalMinimize {
-
-    background-color: rgb(255, 204, 0); 
-    border: 1px solid rgb(255, 214, 10); 
-    height: 15px; 
+    background-color: rgb(255, 204, 0);
+    border: 1px solid rgb(255, 214, 10);
+    height: 15px;
     width: 15px;
     border-radius: 50%;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
+
 #terminalExpand {
-
     background-color: rgb(40, 205, 65);
-    border: 1px solid rgb(50, 215, 75);  
-    height: 15px; 
+    border: 1px solid rgb(50, 215, 75);
+    height: 15px;
     width: 15px;
     border-radius: 50%;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
-#terminalBody{
-    
-    margin: auto; 
-    background-color: #0095c6; 
-    border: 1px solid #0086b3; 
+#terminalBody {
+    margin: auto;
+    background-color: #0095c6;
+    border: 1px solid #0086b3;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .15), 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .12);
 }
+
 .statement {
     margin: 1rem;
     padding: .25rem;
@@ -194,11 +204,12 @@ shadow:after {
     letter-spacing: .5px;
 }
 
-.commandStatement{
-    color: #F5F5F5; 
+.commandStatement {
+    color: #F5F5F5;
 }
-.outputStatement{
-    color: rgb(0, 255, 255); 
+
+.outputStatement {
+    color: rgb(0, 255, 255);
     padding-left: 1rem;
 }
 
@@ -223,186 +234,30 @@ shadow:after {
 
 /* Project Section */
 
-#projectSection {
-    background-color: white;
-}
-
-/* Project images */
-
-.ch-img-1 {
-    background-image: url(../images/moonLight.png);
-}
-
-.ch-img-2 {
-    background-image: url(../images/buzzhappy.png);
-}
-
-.ch-img-3 {
-    background-image: url(../images/clickyGame.png);
-}
-
-.ch-img-4 {
-    background-image: url(../images/Eat-A-Burger!.png);
-}
-
-.ch-img-5 {
-    background-image: url(../images/triviaGAme.png);
-}
-
-.ch-img-6 {
-    background-image: url(../images/friendFinder.png);
-}
-
-.ch-img-7 {
-    background-image: url(../images/train\ scheduler\ .png);
-}
-
-.ch-img-8 {
-    background-image: url(../images/giftastic\ .png);
-}
-
-.ch-img-9 {
-    background-image: url(../images/numberGenerator.png);
-}
-
-.ch-img-10 {
-    background-image: url(../images/Letter\ Game.png);
-}
-
-/* End of project images */
-
-/* Project circles */
-
-.ch-grid {
-    margin: 20px 0 0 0;
-    padding: 0;
-    list-style: none;
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-
-.ch-grid:after, .ch-item:before {
-    content: '';
-    display: table;
-}
-
-.ch-grid:after {
-    clear: both;
-}
-
-.ch-grid li {
-    width: 180px;
-    height: 180px;
-    display: inline-block;
-    margin: 20px;
-}
-
-.ch-item {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    position: relative;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    cursor: default;
-}
-
-.ch-info-wrap {
-    position: absolute;
-    width: 146px;
-    height: 146px;
-    border-radius: 50%;
-    perspective: 800px;
-    transition: all 0.4s ease-in-out;
-    top: 17px;
-    left: 17px;
-    background: #f9f9f9 url(../images/bg.jpg);
-    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 3px rgba(115, 114, 23, 0.8);
-}
-
-.ch-info {
-    position: absolute;
-    width: 146px;
-    height: 146px;
-    border-radius: 50%;
-    transition: all 0.4s ease-in-out;
-    transform-style: preserve-3d;
-}
-
-.ch-info>div {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-position: center center;
-    backface-visibility: hidden;
-}
-
-.ch-info .ch-info-back {
-    transform: rotate3d(0, 1, 0, 180deg);
-    background: #000;
-}
-
-.ch-info h3 {
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 14px;
-    margin: 0 10px;
-    padding: 40px 0 0 0;
-    /* height: 90px; */
-    font-family: 'Open Sans', Arial, sans-serif;
-    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.ch-info h4 {
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    margin: 0 10px;
-    margin-bottom: 5px;
-    padding: 40px 0 0 0;
-    /* height: 90px; */
-    font-family: 'Open Sans', Arial, sans-serif;
-    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.ch-info p {
-    color: #fff;
-    padding: 10px 5px;
-    font-style: italic;
-    margin: 0 30px;
-    font-size: 12px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.ch-info p a {
-    display: block;
-    color: rgba(255, 255, 255, 0.7);
-    font-style: normal;
+.project-title {
     font-weight: 700;
-    text-transform: uppercase;
-    font-size: 9px;
-    letter-spacing: 1px;
-    padding-top: 15px;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 1.5rem;
+}
+.project-title:after {
+    content: '';
+    display: block;
+    border: 2.5px solid #0095c6;
+    margin: auto;
+    width: 180px;
+    margin-top: .5rem;
 }
 
-.ch-info p a:hover {
-    color: rgba(255, 242, 34, 0.8);
+.projectBody {
+    margin: 2rem;
+    background-color: #F5F5F5;
+    border: 1px solid #F0F8FF;
+    border-radius: 10px;
+    
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .15), 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .12);
 }
 
-.ch-item:hover .ch-info-wrap {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), inset 0 0 3px rgba(115, 114, 23, 0.8);
-}
-
-.ch-item:hover .ch-info {
-    transform: rotate3d(0, 1, 0, -180deg);
-}
-
-/* End of project circles */
 
 /* End of Project Section */
 
