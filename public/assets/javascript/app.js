@@ -5,7 +5,7 @@ $(function () {
 
         const nav = $("#mainNavbar");
       
-        nav.toggleClass("scrolled", $(this).scrollTop() > 100);
+        nav.toggleClass("scrolled", $(this).scrollTop() > 50);
 
     });
 

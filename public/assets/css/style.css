@@ -7,13 +7,12 @@ body {
 .containerLarge {
     max-width: 1000px;
     margin: 0 auto;
-    margin-bottom: 5rem; 
+    margin-bottom: 5rem;
     padding: 0 40px;
     background-color: #F5F5F5;
     border: 1px solid #F0F8FF;
     border-radius: 10px;
     box-shadow: 0 50px 100px rgba(50, 50, 93, .15), 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .12);
-    
 }
 
 .containerContact {
@@ -55,7 +54,7 @@ body {
 .navbar.scrolled {
     background-color: white;
     opacity: 1;
-    transition-duration: 500ms;
+    transition-duration: 600ms;
 }
 
 #mainNavbar.scrolled .navbar-brand {
@@ -70,11 +69,12 @@ body {
 
 .banner {
     background-image: url(../images/Background.jpg);
-    min-height: 625px;
+    height: 100vh;
+    object-fit: contain;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
+    max-width: 100%;
     background-attachment: fixed;
     background-size: cover;
 }
