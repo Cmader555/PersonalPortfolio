@@ -1,8 +1,22 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(251, 253, 254, 1) 24%, rgba(0, 149, 198, 1) 97%);
 }
 
 .containerLarge {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 5rem; 
+    padding: 0 40px;
+    background-color: #F5F5F5;
+    border: 1px solid #F0F8FF;
+    border-radius: 10px;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .15), 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .12);
+    
+}
+
+.containerContact {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 40px;
@@ -294,23 +308,22 @@ shadow:after {
 
 .projectButtonDiv {
     margin: 1rem;
-    margin-left: 0; 
+    margin-left: 0;
 }
 
 .projectButton {
-    color: #0095c6;
+    color: #0095c6 !important;
     text-decoration: none;
     background-color: transparent;
     border: 2px solid #0095c6;
     border-radius: 5px;
     padding: .5rem;
-    margin-right: .5rem; 
-   
+    margin-right: .5rem;
 }
 
 .projectButton:hover {
-    color: white;
-    text-decoration: none; 
+    color: white !important;
+    text-decoration: none;
     background-color: #0095c6;
     border: 2px solid #0095c6;
     border-radius: 5px;
@@ -320,68 +333,22 @@ shadow:after {
     transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-/* End of Project Section */
-
-/*About Section */
-
-/* .aboutUL {
-    padding-left: 0;
+.contact-title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
-hr {
-    border-top: 3px double #8c8b8b;
-}
-
-li {
-    list-style-type: none;
-}
-
-.overallAbout {
-    background-image: url(../images/confectionary.png);
-    padding-top: 3rem;
-    padding-bottom: 2.5rem;
-}
-
-.portfolio {
-    background-color: #DCDCDC;
-}
-
-.smallEd {
-    font-weight: 300;
-    color: #0095c6;
-}
-
-.slash {
-    color: #0095c6;
-}
-
-
-}
-
-.image {
+.contact-title:after {
+    content: '';
     display: block;
-    width: 100%;
-    height: 325px;
+    border: 2.5px solid #0095c6;
+    margin: auto;
+    width: 180px;
+    margin-top: .5rem;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgb(60, 179, 113);
-}
-
-.contain:hover .overlay {
-    opacity: .75;
-} */
-
-/* .text {
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -394,23 +361,23 @@ li {
 }
 
 .linkText {
-    color: white; 
+    color: white;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
 }
 
-a .linkText:hover{
+a .linkText:hover {
     color: #0095c6;
-    text-decoration: none; 
-} */
+    text-decoration: none;
+}
 
-/* fieldset {
+fieldset {
     margin: 1rem;
 }
 
 #contact {
-    background-color: #F8F8FF;
+    background-color: #F5F5F5;
 }
 
 .contactProjectH1 {
@@ -424,23 +391,43 @@ input {
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 1.5px solid rgba(120, 131, 131, 0.904);
-    background-color: #F8F8FF;
+    border-bottom: 1.5px solid #617c85;
+    background-color: #F5F5F5;
+    color: #617c85;
 }
 
 textarea {
+    color: #617c85;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    background-color: #F8F8FF;
+    margin-bottom: 0;
+    background-color: #F5F5F5;
     box-sizing: border-box;
     border: none;
-    border-bottom: 1.5px solid rgba(120, 131, 131, 0.904);
+    border-bottom: 1.5px solid #617c85;
 }
 
 input:focus, textarea:focus {
-    border-bottom: 3px solid #3CB371;
+    border-bottom: 3px solid #0095c6;
     outline: none;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #617c85;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #617c85;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #617c85;
 }
 
 .buttoncontain {
@@ -448,34 +435,27 @@ input:focus, textarea:focus {
     width: 50%;
 }
 
-.fa-arrow-right {
-    margin-left: .5rem;
-}
-
-.btn:hover {
-    background-color: #3CB371;
-}
-
 .social {
-    text-align: center;
-    padding: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 .socialbtn:hover {
     color: #0095c6;
+    transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .social a {
-    color: black;
+    color: #617c85;
+    margin: .5rem;
+    margin-left: 0;
 }
 
-ul {
-    text-align: center;
+.emailPhone {
+    font-size: 1rem;
+    margin: 1rem;
+    color: #617c85;
 }
-
-.education h3 {
-    text-align: center;
-} */
 
 @media only screen and (max-width: 768px) and (min-width: 531px) {
     .skillsFlag h1 {
