@@ -25,7 +25,6 @@ body {
     color: white;
     /* text-shadow: 1px 1px 2px #000000; */
     font-size: 1.25rem;
-    
     font-weight: 500;
 }
 
@@ -43,17 +42,15 @@ body {
     background-color: white;
     opacity: 1;
     transition-duration: 500ms;
-   
 }
 
-#mainNavbar.scrolled .navbar-brand{
+#mainNavbar.scrolled .navbar-brand {
     color: #0095c6;
 }
 
-#mainNavbar.scrolled .nav-link{
+#mainNavbar.scrolled .nav-link {
     color: #0095c6;
 }
-
 
 /*main image section */
 
@@ -100,30 +97,9 @@ body {
 .bio {
     font-size: 1rem;
     margin: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3.5rem;
     line-height: 3rem;
     color: #617c85;
-}
-
-.avatar {
-    background-image: url(../images/MaderProfilepic\ copy\ 2.jpeg);
-    display: block;
-    width: 250px;
-    height: 250px;
-    margin: 1em auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-border-radius: 99em;
-    -moz-border-radius: 99em;
-    border-radius: 99em;
-    border: 5px solid #eee;
-    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
-}
-
-.box {
-    background: #FFF;
-    margin: 40px auto;
 }
 
 /* Box shadow effects */
@@ -276,6 +252,72 @@ shadow:after {
     border: 1px solid #F0F8FF;
     border-radius: 10px;
     box-shadow: 0 50px 100px rgba(50, 50, 93, .15), 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .12);
+}
+
+.projImg {
+    background-image: url(../images/moonLight.png);
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 5px;
+    /* border: 1px solid #F5F5F5; */
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    color: #0095c6;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.projectP {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #617c85;
+}
+
+.projectSkill {
+    border: 1.5px solid rgb(250, 221, 56);
+    display: inline-block;
+    border-radius: 5px;
+    padding: .25rem;
+    color: #617c85;
+    margin: .25rem
+}
+
+.projectButtonDiv {
+    margin: 1rem;
+    margin-left: 0; 
+}
+
+.projectButton {
+    color: #0095c6;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #0095c6;
+    border-radius: 5px;
+    padding: .5rem;
+    margin-right: .5rem; 
+   
+}
+
+.projectButton:hover {
+    color: white;
+    text-decoration: none; 
+    background-color: #0095c6;
+    border: 2px solid #0095c6;
+    border-radius: 5px;
+    padding: .5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 /* End of Project Section */
