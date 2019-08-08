@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#allAbout" class="nav-link">ABOUT</a>
+                    <a href="#aboutSection" class="nav-link">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#portolioMain" class="nav-link">PORTFOLIO</a>
+                    <a href="#portfolioSection" class="nav-link">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">CONTACT</a>
+                    <a href="#contactSection" class="nav-link">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -43,8 +43,15 @@
 
     <!--Banner/ Main picture section-->
     <header class="banner">
-        <div class="container text-center">
-            <h1 id="mainH2"></h1>
+        <div class="container">
+            <!-- <h1 id="mainH2"></h1> -->
+            <div class="row ">
+                <div class="col-sm-12 ">
+                    <div class="nameDiv">
+                        <h1 id="mainName" class='d-flex justify-content-end'></h1>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </header>
@@ -124,6 +131,9 @@
                                     <div class="commandStatement">> Christian.location</div>
                                     <div class="outputStatement">"Scottsdale, AZ "</div>
                                 </div>
+                                <div class="statement">
+                                        <div class="commandStatement">> <span class="blink"></span></div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -131,7 +141,7 @@
             </div>
         </section>
 
-        <section class="portfolioSection">
+        <section class="portfolioSection" id="portfolioSection">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-12 text-center">
@@ -139,13 +149,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <div class="projectBody">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <div class="projImg"></div>
                                 </div>
-                                <div class="col-sm-8">
+                                <div class="col-md-8">
                                     <h4 class="projectTitle">MoonLight</h4>
                                     <div class="projectDescription">
                                         <p class="projectP">
@@ -180,14 +190,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <div class="projectBody">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <div class="projImg" style="background-image: url(assets/images/buzzhappy.png)">
                                     </div>
                                 </div>
-                                <div class="col-sm-8">
+                                <div class="col-md-8">
                                     <h4 class="projectTitle">Buzz Happy!</h4>
                                     <div class="projectDescription">
                                         <p class="projectP">
@@ -218,14 +228,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <div class="projectBody">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <div class="projImg" style="background-image: url(assets/images/clickyGame.png)">
                                     </div>
                                 </div>
-                                <div class="col-sm-8">
+                                <div class="col-md-8">
                                     <h4 class="projectTitle">Clicky Game</h4>
                                     <div class="projectDescription">
                                         <p class="projectP">
@@ -252,14 +262,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <div class="projectBody">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <div class="projImg" style="background-image: url(assets/images/Eat-A-Burger!.png)">
                                     </div>
                                 </div>
-                                <div class="col-sm-8">
+                                <div class="col-md-8">
                                     <h4 class="projectTitle">Eat-A-Burger!</h4>
                                     <div class="projectDescription">
                                         <p class="projectP">
@@ -287,222 +297,248 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="projectBody">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="projImg" style="background-image: url(assets/images/triviaGAme.png)">
-                                    </div>
-                                </div>
-                                <div class="col-sm-8">
-                                    <h4 class="projectTitle">Office Trivia</h4>
-                                    <div class="projectDescription">
-                                        <p class="projectP">
-                                            The Office themed trivia game. You have 15 seconds to answer each
-                                            question. Your test results are displayed at the end, and you have the
-                                            ability to try again!
-                                        </p>
-                                    </div>
-                                    <div class="projectSkill">Javascript</div>
-                                    <div class="projectSkill">jQuery</div>
-                                    <div class="projectSkill">CSS</div>
-                                    <div class="projectSkill">Bootstrap</div>
-                                    <div class="projectSkill">HTML</div>
-                                    <div class="projectSkill">Git</div>
-                                    <div class="projectButtonDiv">
-                                        <a class="projectButton" href="https://cmader555.github.io/TriviaGame/"
-                                            target="_blank">Demo <i class="fas  fa-1x fa-arrow-circle-right"></i></a>
-                                        <a class="projectButton" href="https://github.com/Cmader555/TriviaGame"
-                                            target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <button type="submit" id="displayButton" class="projectButton">Show me more!</button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="projectBody">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="projImg" style="background-image: url(assets/images/friendFinder.png)">
+                <div id="displayer">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="projectBody">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="projImg"
+                                            style="background-image: url(assets/images/triviaGAme.png)">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-8">
-                                    <h4 class="projectTitle">Friend Finder</h4>
-                                    <div class="projectDescription">
-                                        <p class="projectP">
-                                            Classic Friend finder app that function's like a dating app where a user
-                                            answers a series of questions. Those answers are then compared to the
-                                            answers of pre-made "users", and the user receives their closest match.
-                                        </p>
-                                    </div>
-                                    <div class="projectSkill">Javascript</div>
-                                    <div class="projectSkill">jQuery</div>
-                                    <div class="projectSkill">Express.js</div>
-                                    <div class="projectSkill">Node.js</div>
-                                    <div class="projectSkill">CSS</div>
-                                    <div class="projectSkill">Bootstrap</div>
-                                    <div class="projectSkill">HTML</div>
-                                    <div class="projectSkill">Git</div>
-                                    <div class="projectButtonDiv">
-                                        <a class="projectButton" href="https://gentle-hamlet-48502.herokuapp.com/"
-                                            target="_blank">Demo <i class="fas  fa-1x fa-arrow-circle-right"></i></a>
-                                        <a class="projectButton" href="https://github.com/Cmader555/friendfinder"
-                                            target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="projectBody">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="projImg" style="background-image: url(assets/images/giftastic\ .png)">
-                                    </div>
-                                </div>
-                                <div class="col-sm-8">
-                                    <h4 class="projectTitle">GIF-tastic</h4>
-                                    <div class="projectDescription">
-                                        <p class="projectP">
-                                            Click on your favorite sports team to display GIFs related to the team!
-                                            Click a gif to start and stop it, and add any teams as you please!
-                                        </p>
-                                    </div>
-                                    <div class="projectSkill">Javascript</div>
-                                    <div class="projectSkill">jQuery</div>
-                                    <div class="projectSkill">CSS</div>
-                                    <div class="projectSkill">Bootstrap</div>
-                                    <div class="projectSkill">HTML</div>
-                                    <div class="projectSkill">APIs/Axios</div>
-                                    <div class="projectSkill">Git</div>
-                                    <div class="projectButtonDiv">
-                                        <a class="projectButton" href="https://cmader555.github.io/GifTastic-/"
-                                            target="_blank">Demo <i class="fas  fa-1x fa-arrow-circle-right"></i></a>
-                                        <a class="projectButton" href="https://github.com/Cmader555/GifTastic-"
-                                            target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                    <div class="col-md-8">
+                                        <h4 class="projectTitle">Office Trivia</h4>
+                                        <div class="projectDescription">
+                                            <p class="projectP">
+                                                The Office themed trivia game. You have 15 seconds to answer each
+                                                question. Your test results are displayed at the end, and you have the
+                                                ability to try again!
+                                            </p>
+                                        </div>
+                                        <div class="projectSkill">Javascript</div>
+                                        <div class="projectSkill">jQuery</div>
+                                        <div class="projectSkill">CSS</div>
+                                        <div class="projectSkill">Bootstrap</div>
+                                        <div class="projectSkill">HTML</div>
+                                        <div class="projectSkill">Git</div>
+                                        <div class="projectButtonDiv">
+                                            <a class="projectButton" href="https://cmader555.github.io/TriviaGame/"
+                                                target="_blank">Demo <i
+                                                    class="fas  fa-1x fa-arrow-circle-right"></i></a>
+                                            <a class="projectButton" href="https://github.com/Cmader555/TriviaGame"
+                                                target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="projectBody">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="projImg"
-                                        style="background-image: url(assets/images/train\ scheduler\ .png)">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="projectBody">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="projImg"
+                                            style="background-image: url(assets/images/friendFinder.png)">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-8">
-                                    <h4 class="projectTitle">Train Scheduler</h4>
-                                    <div class="projectDescription">
-                                        <p class="projectP">
-                                            A user can enter train departure time, and train frequency rate. Train
-                                            arrival time, and how far away it is, is calculated based on user entered
-                                            values and the browser time of the user viewing the site
-                                        </p>
-                                    </div>
-                                    <div class="projectSkill">Javascript</div>
-                                    <div class="projectSkill">jQuery</div>
-                                    <div class="projectSkill">CSS</div>
-                                    <div class="projectSkill">Bootstrap</div>
-                                    <div class="projectSkill">HTML</div>
-                                    <div class="projectSkill">Moment.js</div>
-                                    <div class="projectSkill">Firebase</div>
-                                    <div class="projectSkill">Git</div>
-                                    <div class="projectButtonDiv">
-                                        <a class="projectButton" href="https://cmader555.github.io/trainscheduler/"
-                                            target="_blank">Demo <i class="fas  fa-1x fa-arrow-circle-right"></i></a>
-                                        <a class="projectButton" href="https://github.com/Cmader555/trainscheduler"
-                                            target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="projectBody">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="projImg"
-                                        style="background-image: url(assets/images/numberGenerator.png)">
-                                    </div>
-                                </div>
-                                <div class="col-sm-8">
-                                    <h4 class="projectTitle">Number Generator</h4>
-                                    <div class="projectDescription">
-                                        <p class="projectP">
-                                            This game is the classic javascript crystal game with a slight twist! A
-                                            random target number between 20 and 120 is generated, and random values
-                                            are assigned to buttons. Click the buttons to add to your score, and if
-                                            you score equals the target number you win!
-                                        </p>
-                                    </div>
-                                    <div class="projectSkill">Javascript</div>
-                                    <div class="projectSkill">jQuery</div>
-                                    <div class="projectSkill">CSS</div>
-                                    <div class="projectSkill">Bootstrap</div>
-                                    <div class="projectSkill">HTML</div>
-                                    <div class="projectSkill">Git</div>
-                                    <div class="projectButtonDiv">
-                                        <a class="projectButton" href="https://cmader555.github.io/NumberGenerator/"
-                                            target="_blank">Demo <i class="fas  fa-1x fa-arrow-circle-right"></i></a>
-                                        <a class="projectButton" href="https://github.com/Cmader555/NumberGenerator"
-                                            target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                    <div class="col-md-8">
+                                        <h4 class="projectTitle">Friend Finder</h4>
+                                        <div class="projectDescription">
+                                            <p class="projectP">
+                                                Classic Friend finder app that function's like a dating app where a user
+                                                answers a series of questions. Those answers are then compared to the
+                                                answers of pre-made "users", and the user receives their closest match.
+                                            </p>
+                                        </div>
+                                        <div class="projectSkill">Javascript</div>
+                                        <div class="projectSkill">jQuery</div>
+                                        <div class="projectSkill">Express.js</div>
+                                        <div class="projectSkill">Node.js</div>
+                                        <div class="projectSkill">CSS</div>
+                                        <div class="projectSkill">Bootstrap</div>
+                                        <div class="projectSkill">HTML</div>
+                                        <div class="projectSkill">Git</div>
+                                        <div class="projectButtonDiv">
+                                            <a class="projectButton" href="https://gentle-hamlet-48502.herokuapp.com/"
+                                                target="_blank">Demo <i
+                                                    class="fas  fa-1x fa-arrow-circle-right"></i></a>
+                                            <a class="projectButton" href="https://github.com/Cmader555/friendfinder"
+                                                target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="projectBody">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="projImg" style="background-image: url(assets/images/letter\ Game.png)">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="projectBody">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="projImg"
+                                            style="background-image: url(assets/images/giftastic\ .png)">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-8">
-                                    <h4 class="projectTitle">Letter Guessing Game</h4>
-                                    <div class="projectDescription">
-                                        <p class="projectP">
-                                            You have 5 chances to guess the correct randomly generated letter by
-                                            clicking on a key on your keyboard. If you guess the correct letter, or
-                                            you run out of guesses the game ends, and resets!
-                                        </p>
-                                    </div>
-                                    <div class="projectSkill">Javascript</div>
-                                    <div class="projectSkill">CSS</div>
-                                    <div class="projectSkill">Bootstrap</div>
-                                    <div class="projectSkill">HTML</div>
-                                    <div class="projectSkill">Git</div>
-                                    <div class="projectButtonDiv">
-                                        <a class="projectButton" href="https://cmader555.github.io/Letter-Guess-Game/"
-                                            target="_blank">Demo <i class="fas  fa-1x fa-arrow-circle-right"></i></a>
-                                        <a class="projectButton" href="https://github.com/Cmader555/Letter-Guess-Game"
-                                            target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                    <div class="col-md-8">
+                                        <h4 class="projectTitle">GIF-tastic</h4>
+                                        <div class="projectDescription">
+                                            <p class="projectP">
+                                                Click on your favorite sports team to display GIFs related to the team!
+                                                Click a gif to start and stop it, and add any teams as you please!
+                                            </p>
+                                        </div>
+                                        <div class="projectSkill">Javascript</div>
+                                        <div class="projectSkill">jQuery</div>
+                                        <div class="projectSkill">CSS</div>
+                                        <div class="projectSkill">Bootstrap</div>
+                                        <div class="projectSkill">HTML</div>
+                                        <div class="projectSkill">APIs/Axios</div>
+                                        <div class="projectSkill">Git</div>
+                                        <div class="projectButtonDiv">
+                                            <a class="projectButton" href="https://cmader555.github.io/GifTastic-/"
+                                                target="_blank">Demo <i
+                                                    class="fas  fa-1x fa-arrow-circle-right"></i></a>
+                                            <a class="projectButton" href="https://github.com/Cmader555/GifTastic-"
+                                                target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="projectBody">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="projImg"
+                                            style="background-image: url(assets/images/train\ scheduler\ .png)">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h4 class="projectTitle">Train Scheduler</h4>
+                                        <div class="projectDescription">
+                                            <p class="projectP">
+                                                A user can enter train departure time, and train frequency rate. Train
+                                                arrival time, and how far away it is, is calculated based on user
+                                                entered
+                                                values and the browser time of the user viewing the site
+                                            </p>
+                                        </div>
+                                        <div class="projectSkill">Javascript</div>
+                                        <div class="projectSkill">jQuery</div>
+                                        <div class="projectSkill">CSS</div>
+                                        <div class="projectSkill">Bootstrap</div>
+                                        <div class="projectSkill">HTML</div>
+                                        <div class="projectSkill">Moment.js</div>
+                                        <div class="projectSkill">Firebase</div>
+                                        <div class="projectSkill">Git</div>
+                                        <div class="projectButtonDiv">
+                                            <a class="projectButton" href="https://cmader555.github.io/trainscheduler/"
+                                                target="_blank">Demo <i
+                                                    class="fas  fa-1x fa-arrow-circle-right"></i></a>
+                                            <a class="projectButton" href="https://github.com/Cmader555/trainscheduler"
+                                                target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="projectBody">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="projImg"
+                                            style="background-image: url(assets/images/numberGenerator.png)">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h4 class="projectTitle">Number Generator</h4>
+                                        <div class="projectDescription">
+                                            <p class="projectP">
+                                                This game is the classic javascript crystal game with a slight twist! A
+                                                random target number between 20 and 120 is generated, and random values
+                                                are assigned to buttons. Click the buttons to add to your score, and if
+                                                you score equals the target number you win!
+                                            </p>
+                                        </div>
+                                        <div class="projectSkill">Javascript</div>
+                                        <div class="projectSkill">jQuery</div>
+                                        <div class="projectSkill">CSS</div>
+                                        <div class="projectSkill">Bootstrap</div>
+                                        <div class="projectSkill">HTML</div>
+                                        <div class="projectSkill">Git</div>
+                                        <div class="projectButtonDiv">
+                                            <a class="projectButton" href="https://cmader555.github.io/NumberGenerator/"
+                                                target="_blank">Demo <i
+                                                    class="fas  fa-1x fa-arrow-circle-right"></i></a>
+                                            <a class="projectButton" href="https://github.com/Cmader555/NumberGenerator"
+                                                target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="projectBody">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="projImg"
+                                            style="background-image: url(assets/images/letter\ Game.png)">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h4 class="projectTitle">Letter Guessing Game</h4>
+                                        <div class="projectDescription">
+                                            <p class="projectP">
+                                                You have 5 chances to guess the correct randomly generated letter by
+                                                clicking on a key on your keyboard. If you guess the correct letter, or
+                                                you run out of guesses the game ends, and resets!
+                                            </p>
+                                        </div>
+                                        <div class="projectSkill">Javascript</div>
+                                        <div class="projectSkill">CSS</div>
+                                        <div class="projectSkill">Bootstrap</div>
+                                        <div class="projectSkill">HTML</div>
+                                        <div class="projectSkill">Git</div>
+                                        <div class="projectButtonDiv">
+                                            <a class="projectButton"
+                                                href="https://cmader555.github.io/Letter-Guess-Game/"
+                                                target="_blank">Demo <i
+                                                    class="fas  fa-1x fa-arrow-circle-right"></i></a>
+                                            <a class="projectButton"
+                                                href="https://github.com/Cmader555/Letter-Guess-Game"
+                                                target="_blank">Github <i class="fab fa-github fa-1x socialbtn"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                            <div class="col-sm-12">
+                                <button type="submit" id="hideButton" class="projectButton">Show me Less!</button>
+                            </div>
+                        </div>
                 </div>
 
             </div>
         </section>
     </div>
-    <section class="contactSection">
-        <footer class="banner">
+    <section class="contactSection" id="contactSection">
+        <footer class="bannerFooter">
             <div class="containerContact">
                 <div class="projectBody">
                     <div class="container">

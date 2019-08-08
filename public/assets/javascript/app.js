@@ -1,10 +1,11 @@
+
 //function for nav bar to become solid when scrolling
 $(function () {
 
     $(document).scroll(function () {
 
         const nav = $("#mainNavbar");
-      
+
         nav.toggleClass("scrolled", $(this).scrollTop() > 50);
 
     });
@@ -56,15 +57,15 @@ $("#submitButton").on("click", event => {
 
     submit()
 
-}); 
+});
 
 var i = 0;
-var txt = 'My Name is Christian Mader and I am a Full-Stack Web Developer. Welcome to my portfolio!'; /* The text */
+var txt = `> Christian Mader`; /* The text */
 var speed = 60; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("mainH2").innerHTML += txt.charAt(i);
+    document.getElementById("mainName").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
@@ -73,7 +74,22 @@ function typeWriter() {
 typeWriter(); 
 
 
+$("#displayButton").on("click", event => {
+    event.preventDefault()
+    $('#displayer').css("display", "block")
+    $("#displayButton").css("display", "none")
+    $("#hideButton").css("display", "inline")
 
+})
+
+$("#hideButton").on("click", event =>{
+    event.preventDefault()
+    $('#displayer').css("display", "none")
+    $("#displayButton").css("display", "inline")
+    $("#hideButton").css("display", "none")
+
+
+})
 
 
 
