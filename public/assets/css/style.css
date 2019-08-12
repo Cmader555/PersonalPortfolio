@@ -71,6 +71,9 @@ body {
     max-width: 100%;
     background-attachment: fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .bannerFooter {
@@ -482,20 +485,20 @@ input:focus, textarea:focus {
     display: none;
 }
 
-.blinkTitle{
+.blinkTitle {
     border: 1rem solid #0095c6;
     animation: blinking 1s linear infinite
-    
-
 }
-.blink{
+
+.blink {
     border: .25rem solid rgb(0, 255, 255);
     animation: blinking 1s linear infinite
 }
-@keyframes blinking{
+
+@keyframes blinking {
     50% {
         opacity: 0;
-      }
+    }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
