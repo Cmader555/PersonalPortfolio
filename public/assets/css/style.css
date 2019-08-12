@@ -549,6 +549,7 @@ input:focus, textarea:focus {
     }
     #mainName {
         font-size: 3rem;
+        margin: auto; 
     }
     .projImg {
         width: 12rem;
