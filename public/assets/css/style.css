@@ -535,6 +535,9 @@ input:focus, textarea:focus {
     .projectButtonDiv {
         text-align: center;
     }
+    .banner {
+        background-attachment: scroll;
+    }
 }
 
 @media only screen and (max-width: 531px) {
@@ -559,5 +562,8 @@ input:focus, textarea:focus {
     }
     .projectButtonDiv {
         text-align: center;
+    }
+    .banner {
+        background-attachment: scroll;
     }
 }
